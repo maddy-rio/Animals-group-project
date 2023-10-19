@@ -1,0 +1,42 @@
+{{!-- 
+WHAT ARE WE EXPECTING HERE?
+we are expecting an array of animals to sent to this .hbs file
+
+this array will we structured : 
+[
+  { 
+    image: urlString,
+    name: nameString,
+    origin: originString,
+    significance: significanceString,
+    comments: commentsArray,
+  },
+  { 
+    image: urlString,
+    name: nameString,
+    origin: originString,
+    significance: significanceString,
+    comments: commentsArray,
+  },
+]
+
+WHAT DO WE NEED TO DO?
+
+iterate through each of the objects of the array 
+
+
+load the values into another template(partial) this partial will be the "overview" of the animal-blog
+
+    ---> make a new partial called 'animalOverview.hbs'....?
+
+
+each of these partials will redirect the user to a specific endpoint based on the animal. eg. click the cow takes us to => /animals/cow
+
+    ---> setup the animalOverview partial to include an a tag with HREF pointing towards the associated endpoint
+    note: this redirection should include request params or queries.
+
+    ***this will be different from the individual animal page- where we will display all animal details:***
+
+
+
+ --}}
