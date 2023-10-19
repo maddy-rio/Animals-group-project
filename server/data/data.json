@@ -2,7 +2,7 @@
   "animals": [
     {
       "id": 1,
-      "image": "",
+      "image": "/images/puppy1.jpg",
       "name": "Fennec Fox",
       "origin": "North Africa, Sahara Desert",
       "significance": "Foxes have been incorporated into various cultural beliefs including being a symbol of wisdom, trickery and fertility.",
