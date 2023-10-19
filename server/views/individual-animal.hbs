@@ -1,0 +1,66 @@
+{{!-- What are we expecting
+
+This will be the individual page that you are sent to from the all-animals page
+
+We are expecting a single animal with the following layout
+
+    image: urlString,
+    name: nameString,
+    origin: originString,
+    significance: significanceString,
+    comments: commentsArray,
+
+
+This will be in a form layout 
+
+<form action="" method="post">
+ //Animal info
+  <label for="comments">
+    Comments:
+    <input type="text" id="comments" name="comments">
+  </label>
+
+  <button type="submit">Add</button>
+</form>
+ --}}
+
+ 
+{{!-- 
+{
+  "animals": [
+    {
+      "id": 1,
+      "image": "/images/fox.jpg",
+      "name": "Fennec Fox (Vulpes zerda)",
+      "origin": "North Africa, Sahara Desert",
+      "significance": "Foxes have been incorporated into various cultural beliefs as symbols of wisdom, trickery and fertility.",
+      "comments": ["Foxes are so very sly...","I think foxes are beautiful!"]
+    },
+    {
+      "id": 2,
+      "image": "/images/owl.jpg",
+      "name": "Snowy Owl (Bubo scandiacus)",
+      "origin": "Artic North America and Paleartic, mostly in tundra",
+      "significance": "Often included in beliefs as symbols of wisdom, patience, solitude and death",
+      "comments": []
+    }, --}}
+
+<div class="puppy">
+  <img class="img-circle" src="{{image}}" alt="{{name}}">
+  <h2>{{name}}</h2>
+  <p>{{origin}}</p>
+  <p>{{significance}}</p>
+ 
+{{#each comments}}
+    <li>{{this}}</li>
+{{/each}}
+<ul class="people_list">
+  {{#each people}}
+  {{/each}}
+</ul>
+  
+  <h2>{{name}}</h2>
+  <div>Breed: {{breed}}</div>
+  <div>Owner: {{owner}}</div>
+  <a href="/edit/{{id}}">Edit</a>
+</div>
