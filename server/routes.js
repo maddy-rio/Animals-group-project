@@ -18,4 +18,10 @@ animalRoute.get('/', async (req, res) => {
   }
 })
 
+// Single animal
+animalRoute.get('/:id', (req, res) => {
+  const num = Number(req.params.id)
+  const animal = data.animals.find((animal) => animal.id === num)
+  res.render('individual-animal', animal)
+})
 export default animalRoute
