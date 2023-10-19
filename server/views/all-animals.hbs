@@ -63,10 +63,10 @@ each of these partials will redirect the user to a specific endpoint based on th
  --}}
 
 <div class="container">
- {{#each eachMyth}}
+ {{#each animals}}
   <div class="animal-list">
-    <a href="/animal/{{index}}">
-      <img href={{image}} alt = "{{name}}"/>
+    <a href="/animal/{{id}}">
+      <img href="{{image}}" alt = "{{name}}"/>
       <h2>{{name}}</h2>
     </a>
   </div>
