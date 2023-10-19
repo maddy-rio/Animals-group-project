@@ -1,7 +1,7 @@
 import * as Path from 'node:path'
 import express from 'express'
 import hbs from 'express-handlebars'
-import animalRoute from './routes'
+import animalRoute from './routes.js'
 
 const server = express()
 

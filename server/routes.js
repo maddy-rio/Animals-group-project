@@ -12,7 +12,7 @@ const data = await fs
 // All animals
 animalRoute.get('/', async (req, res) => {
   try {
-    res.render('home', data)
+    res.render('all-animals', data)
   } catch (err) {
     console.log(err.message)
   }
