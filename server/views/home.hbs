@@ -1,7 +1,16 @@
-<div class="container">
-  {{#each puppies}}
-  <div class="puppy-list">
-    <a href="/{{id}}"><img class="img-circle" src="{{image}}" alt="{{name}}"></a>
-  </div>
-  {{/each}}
-</div>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>Main Layout</title>
+    <link
+      rel='stylesheet'
+      href='./public/main.css'
+    />
+  </head>
+  <body>
+    {{>header}}
+      {{{body}}}
+        {{>footer}}
+  </body>
+</html>
