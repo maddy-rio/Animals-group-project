@@ -3,24 +3,24 @@
     {
       "id": 1,
       "image": "/images/puppy1.jpg",
-      "name": "Fennec Fox",
+      "name": "Fennec Fox (Vulpes zerda)",
       "origin": "North Africa, Sahara Desert",
-      "significance": "Foxes have been incorporated into various cultural beliefs including being a symbol of wisdom, trickery and fertility.",
+      "significance": "Foxes have been incorporated into various cultural beliefs as symbols of wisdom, trickery and fertility.",
       "comments": ["Foxes are so very sly...","I think foxes are beautiful!"]
     },
     {
       "id": 2,
       "image": "/images/puppy1.jpg",
-      "name": "Snowy Owl",
+      "name": "Snowy Owl (Bubo scandiacus)",
       "origin": "Artic North America and Paleartic, mostly in tundra",
-      "significance": "Often included in beliefs as symbols of wisdom and death",
+      "significance": "Often included in beliefs as symbols of wisdom, patience, solitude and death",
       "comments": []
     },
     {
       "id": 3,
       "image": "/images/puppy1.jpg",
-      "name": "",
-      "origin": "",
+      "name": "Unicorn",
+      "origin": "Scottish National Animal, Indus Valley civilization, Greek Mythology",
       "significance": "",
       "comments": []
     },
