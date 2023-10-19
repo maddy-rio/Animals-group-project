@@ -1,53 +1,44 @@
 {
-  "puppies": [
+  "animals": [
     {
       "id": 1,
-      "name": "Fido",
-      "owner": "Fred",
-      "image": "/images/puppy1.jpg",
-      "breed": "Labrador"
+      "image": "/images/fox.jpg",
+      "name": "Fennec Fox (Vulpes zerda)",
+      "origin": "North Africa, Sahara Desert",
+      "significance": "Foxes have been incorporated into various cultural beliefs as symbols of wisdom, trickery and fertility.",
+      "comments": ["Foxes are so very sly...","I think foxes are beautiful!"]
     },
     {
       "id": 2,
-      "name": "Coco",
-      "owner": "Chloe",
-      "image": "/images/puppy2.jpg",
-      "breed": "Labrador"
+      "image": "/images/owl.jpg",
+      "name": "Snowy Owl (Bubo scandiacus)",
+      "origin": "Artic North America and Paleartic, mostly in tundra",
+      "significance": "Often included in beliefs as symbols of wisdom, patience, solitude and death",
+      "comments": []
     },
     {
       "id": 3,
-      "name": "Magnum",
-      "owner": "Michael",
-      "image": "/images/puppy3.jpg",
-      "breed": "Rottweiler"
+      "image": "/images/unicorn.jpg",
+      "name": "Unicorn",
+      "origin": "National Animal of Scotland, Indus Valley civilization, Greek natural history",
+      "significance": "In celtic mythology the unicorn was a symbol of purity and innocence, as well as masculinity and power. Tales of dominance and chivalry associated with the unicorn may be why it was chosen as Scotland's national animal",
+      "comments": []
     },
     {
       "id": 4,
-      "name": "Sadie",
-      "owner": "Sam",
-      "image": "/images/puppy4.jpg",
-      "breed": "Labrador"
+      "image": "/images/bear.jpg",
+      "name": "Brown Bear (Ursus arctos)",
+      "origin": "Found throughout Eurasia and North America",
+      "significance": "For Celts, bear and warrior are thought to be synonymous; in Greece the bear was strongly associated with the moon and hold a place in constellations as Ursa Major and Ursa Minor.",
+      "comments": []
     },
     {
       "id": 5,
-      "name": "Murphy",
-      "owner": "Matthew",
-      "image": "/images/puppy5.jpg",
-      "breed": "Pug"
-    },
-    {
-      "id": 6,
-      "name": "Bella",
-      "owner": "Brianna",
-      "image": "/images/puppy6.jpg",
-      "breed": "Labrador"
-    },
-    {
-      "id": 7,
-      "name": "Rocky",
-      "owner": "Ricky",
-      "image": "/images/puppy7.jpg",
-      "breed": "Labrador"
+      "image": "/images/lion.jpg",
+      "name": "Lion (Panthera leo)",
+      "origin": "Africa and Eurasia but now limited to sub-Saharan Africa",
+      "significance": "Often associated with the Sun (Leo in the zodiac) and king of animals, therefore often connnected to kings and emperors.",
+      "comments": []
     }
   ]
 }
