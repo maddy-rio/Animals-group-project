@@ -32,14 +32,6 @@ this array will we structured :
     significance: significanceString,
     comments: commentsArray,
   },
-  { 
-    index: something,
-    image: urlString,
-    name: nameString,
-    origin: originString,
-    significance: significanceString,
-    comments: commentsArray,
-  },
 ]
 
 WHAT DO WE NEED TO DO?
@@ -60,11 +52,20 @@ each of these partials will redirect the user to a specific endpoint based on th
     ***this will be different from the individual animal page- where we will display all animal details:***
 
 
+  { 
+    id: something,
+    image: urlString,
+    name: nameString,
+    origin: originString,
+    significance: significanceString,
+    comments: commentsArray,
+  },
+
  --}}
 <div class="container">
  {{#each eachMyth}}
   <div class="animal-list">
-    <a href="/animal/{{index}}">
+    <a href="/animal/{{id}}">
       <img href={{image}} alt = "{{name}}"/>
       <h2>{{name}}</h2>
     </a>
