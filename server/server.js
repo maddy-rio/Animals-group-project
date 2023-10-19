@@ -1,9 +1,7 @@
 import * as Path from 'node:path'
-// import * as URL from 'node:url'
-
 import express from 'express'
 import hbs from 'express-handlebars'
-
+import animalRoute from './routes'
 
 const server = express()
 
@@ -17,6 +15,11 @@ server.engine('hbs', hbs.engine({ extname: 'hbs' }))
 server.set('view engine', 'hbs')
 server.set('views', Path.resolve('server/views'))
 
-// Your routes/router(s) should go here
+// Setting router
+server.get('/', (req, res) => {
+  res.redirect('/animals')
+})
+
+server.use('/animals', animalRoute)
 
 export default server
