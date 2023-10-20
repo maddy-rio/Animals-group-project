@@ -1,5 +1,6 @@
 import express from 'express'
 import { log } from 'node:console'
+import { readSync } from 'node:fs'
 import fs from 'node:fs/promises'
 
 const animalRoute = express.Router()
